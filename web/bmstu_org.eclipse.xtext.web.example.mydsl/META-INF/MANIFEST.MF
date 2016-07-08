@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: bmstu_org.eclipse.xtext.web.example.mydsl
+Bundle-Vendor: My Company
+Bundle-Version: 1.0.0.qualifier
+Bundle-SymbolicName: bmstu_org.eclipse.xtext.web.example.mydsl; singleton:=true
+Bundle-ActivationPolicy: lazy
+Require-Bundle: org.eclipse.xtext,
+ org.eclipse.xtext.xbase,
+ org.eclipse.equinox.common;bundle-version="3.5.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Export-Package: bmstu_org.eclipse.xtext.web.example.mydsl.services

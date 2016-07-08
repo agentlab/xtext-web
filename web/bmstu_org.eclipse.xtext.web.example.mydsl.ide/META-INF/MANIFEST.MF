@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: bmstu_org.eclipse.xtext.web.example.mydsl.ide
+Bundle-Vendor: My Company
+Bundle-Version: 1.0.0.qualifier
+Bundle-SymbolicName: bmstu_org.eclipse.xtext.web.example.mydsl.ide; singleton:=true
+Bundle-ActivationPolicy: lazy
+Require-Bundle: bmstu_org.eclipse.xtext.web.example.mydsl,
+ org.eclipse.xtext.ide,
+ org.eclipse.xtext.xbase.ide
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6

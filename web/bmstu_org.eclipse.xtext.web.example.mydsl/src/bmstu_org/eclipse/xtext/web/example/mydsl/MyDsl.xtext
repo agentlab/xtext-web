@@ -1,0 +1,9 @@
+grammar bmstu_org.eclipse.xtext.web.example.mydsl.MyDsl with org.eclipse.xtext.common.Terminals
+
+generate myDsl "http://www.eclipse.bmstu_org/xtext/web/example/mydsl/MyDsl"
+
+Model:
+	greetings+=Greeting*;
+	
+Greeting:
+	'Hello' name=ID '!';
